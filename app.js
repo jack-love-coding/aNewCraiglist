@@ -105,8 +105,8 @@ app.post('/publish',function(req,res){
 	var text = req.body.post;
 	var user = req.session.user;
 	var post={};
-	post[text]= text;
-	post[user] = user;
+	post['text']= text;
+	post['user'] = user;
 	db_post.push(post);
 	res.redirect('/');
 });
