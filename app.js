@@ -114,7 +114,8 @@ app.post('/publish',function(req,res){
 handlebars.registerHelper('ParseContent',function(post, author){
 	return post + ' by ' + author
 });
-app.listen(3000);
+//app.listen(3000);
+app.listen(process.env.PORT||3000);
 
 /*
 // catch 404 and forward to error handler
