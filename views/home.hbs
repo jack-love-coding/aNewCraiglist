@@ -1,0 +1,17 @@
+
+  <body>
+    <div class="header" style="display:flex; text-align:center;float:right;">
+      <h2>Welcome: {{user}}</h2>
+      <div style="margin:30px 20px;">
+          <a href="/logout">Logout </a>
+      </div>
+    </div>
+    <a href='publish' style="margin:auto;z-index:-2;"><h2>Post something!</h2></a>
+    <div style="padding:50px;">
+      hello
+      {{post}}
+      {{#each post}}
+        <div>{{ParseContent text user}} </div>
+      {{/each}}
+    </div>
+  </body>
