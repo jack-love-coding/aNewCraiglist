@@ -10,6 +10,7 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
     "handlebars-form-helpers": "^0.1.3",
     "hbs": "~4.0.1",
     "hdb": "^0.14.0",
